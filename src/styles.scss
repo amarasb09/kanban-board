@@ -1,0 +1,45 @@
+@import "node_modules/h8k-design/lib/index";
+
+body {
+  margin: 0;
+}
+
+.stage-1 {
+  background-color: #f2898933;
+  border-radius: 4px;
+  .task {
+    border-radius: 5px;
+    border: 1px solid red;
+  }
+}
+
+.stage-2 {
+  background-color: #8f8d8d33;
+  border-radius: 4px;
+  .task {
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+}
+
+.stage-3 {
+  background-color: #89f2df33;
+  border-radius: 4px;
+  .task {
+    border-radius: 5px;
+    border: 1px solid rgb(29, 166, 207);
+  }
+}
+
+.stage-4 {
+  background-color: #49e27159;
+  border-radius: 4px;
+  .task {
+    border-radius: 5px;
+    border: 1px solid rgb(43, 104, 3);
+  }
+}
+
+.centre-text {
+  text-align: center;
+}

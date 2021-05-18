@@ -1,0 +1,45 @@
+.card {
+  transition: height 0.5s ease-in-out;
+  will-change: height;
+}
+
+.card-text {
+  min-width: 236px;
+  min-height: 350px;
+  height: 100%;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.li-content {
+  height: 25px;
+}
+
+.radioDiv {
+  margin: auto 1rem;
+}
+
+.task-details {
+  font-size: 12px;
+  font-style: italic;
+  margin: auto;
+  margin-top: 8px;
+}
+
+.showHide {
+  cursor: pointer;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.text-green {
+  color: green;
+}
